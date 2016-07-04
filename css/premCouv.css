@@ -1,0 +1,14 @@
+section.corps.premCouv{
+	height : 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+section.corps.premCouv .cadre{
+	height : 100%;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+section.corps.premCouv .cadre img{
+	width: 100%;
+	margin-top: 45%;
+}

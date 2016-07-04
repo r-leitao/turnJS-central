@@ -1,0 +1,72 @@
+section.corps.model2 .cadre .clearBoth{
+	height : 8%;
+}
+section.corps.model2 .cadre{
+	height : 50%;
+}
+
+
+
+section.corps.model2 .cadre div.border{
+	/*border: 1px solid #000;*/
+	font-size: 1.5vmin
+}
+
+section.corps.model2 .cadre div.border h3{
+	display      : inline-block;
+	/*border-bottom: 3px solid #e2d9eb; */
+	font-size    : 1.5vmin;
+}
+
+section.corps.model2 .cadre div.border .infoPdt .infoPrix{
+	margin-top      : 2%;
+	margin-right    : 2%;
+	width           : 45%;
+	padding         : 2%;
+	background-color: #e9ebed;
+	border-radius   : 5px;
+	float           : left;
+	font-size       : 1.2vmin;
+	border          : 2px solid #e2d9eb;
+	position        : relative;
+}
+
+section.corps.model2 .cadre div.border .infoPdt .infoPrix span{
+	position: absolute;
+	bottom  : 5px;
+	right   : 5px;
+	color   : red;
+	font-size       : 1.6vmin;
+}
+section.corps.model2 .cadre div.border .infoPdt .infoPrix span sup{
+	font-size: 0.8vmin;
+}
+
+section.corps.model2 .cadre div.border .infoPdt a img.panierIco{
+	width       : 15%;
+	height      : auto;
+	float       : left;
+	margin-right: 2%;
+}
+
+section.corps.model2 .cadre div.border .infoPdt a img.plusIco{
+	width       : 25%;
+	height      : auto;
+	float       : left;
+	margin-top: 2%;
+}
+
+section.corps.model2 .cadre figure{
+	width     : 40%;
+	height    : 92%;
+	margin    : 0;
+	padding   : 0;
+	text-align: center;
+}
+section.corps.model2 .cadre figure img{
+	width: 100%
+}
+section.corps.model2 .cadre.imgG .border{width: 58%; float: right;}
+section.corps.model2 .cadre.imgD .border{width: 58%; float: left;}
+section.corps.model2 .cadre.imgG figure{float: left;}
+section.corps.model2 .cadre.imgD figure{float: right;}

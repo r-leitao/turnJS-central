@@ -1,0 +1,583 @@
+
+div.droite, div.gauche{
+	height: 100%;
+}
+
+div.posR{
+	position: relative;
+	
+}
+
+.clearBoth{
+	clear: both;
+}
+
+section.corps{
+	height : 88.5%;
+}
+
+
+section.corps .produit{
+	width        : 33%;
+	height       : 20%;
+	float        : left;
+	margin-bottom: 15%;
+}
+section.corps .produit .ajouterPDT{
+	width     : 40%;
+	height    : auto;
+	margin-top: 25%;
+}
+section.corps .produit figure{
+	width     : 40%;
+	height    : 92%;
+	text-align: center;
+}
+section.corps.model4 .infoPdt{
+	height    : 92%;
+	font-size : 0.7vmin;
+	text-align: justify;
+}
+section.corps .produit figure img{
+	height: 82.6%;
+}
+
+section.corps .produit figure figcaption{
+	text-align: left;
+	height    : 17.4%;
+	font-size : 0.4vmin;
+}
+section.corps .produit figure{
+	margin : 0;
+	padding: 0;
+}
+
+.price{
+	color      : #d74daf;
+	font-weight: bold;
+	text-align : right;
+}
+.text{
+	padding   : 0;
+	margin    : 0;
+	height    : 50%;
+	overflow-y: scroll;
+}
+
+/* css formulaire ajout produit */
+#option1{float: left; width: 45%}
+#option2{float: left; width: 45%}
+#quantity_wanted{
+	width: 5%;
+}
+#idTabOption form{
+	float: left;
+}
+#idTabOption img{
+	width : 10%;
+	height: 10%;
+	float: left;
+}
+
+/* css gauche */
+div.gauche section.header{
+	height             : 5.31%;
+	overflow: hidden;
+	/*background-color: green;
+	background-image   : url('../img/hautGauche2.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;*/
+}
+
+div.gauche section.header div.bgCol{
+	height             : 101%;
+	/*background-color   : #D74DAF;*/
+	background-image   : url('../img/hautGauche2.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;
+	width              : 45%;
+	/*border: 1px solid #000;*/
+}
+
+
+
+div.gauche section.corps{
+	margin-left : 2.53%;
+	margin-right: 2.65%;
+}
+/*div.gauche section.footer{
+	margin             : 0;
+	height             : 6.70%;
+	background-image   : url('../img/basGauche3.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;
+}
+div.gauche section.footer p.number{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 0.75%;
+	font-size  : 1.5vmin;
+	margin-top : 6%;
+	line-height: 0px;
+}*/
+
+div.gauche section.footer{
+	margin          : 0;
+	height          : 6.70%;
+	background-image: none !important;
+	position        : relative;
+}
+
+div.gauche section.footer div.imgFond p.number{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 0.75%;
+	font-size  : 1.5vmin;
+	margin-top : 6%;
+	line-height: 0px;
+}
+
+div.gauche section.footer div.imgFond{
+	margin             : 0;
+	height             : 101%;
+	width              : 100%;
+	background-image   : url('../img/basGauche3.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;
+	position: relative;
+	z-index            : 500;
+}
+
+div.gauche section.footer div.imgColor{
+	/*background-color: #D74DAF;*/
+	height          : 70%;
+	width           : 7.8%;
+	position        : absolute;
+	top             : 30%;
+	z-index         : 400;	
+}
+
+/**************/
+
+
+div.gauche section.header p.title{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	float      : left;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 10%;
+	font-size   : 1.9vmin;
+	line-height : 0px;
+	margin-top  : 4.5%;
+}
+
+
+
+/* css droite */
+
+/*div.droite section.header{
+	height             : 5.31%;
+	background-image   : url('../img/hautDroite2.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: right;
+}*/
+
+
+div.droite section.header{
+	height             : 5.31%;
+	overflow: hidden;
+	/*background-color: green;
+	background-image   : url('../img/hautGauche2.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;*/
+}
+
+div.droite section.header div.bgCol{
+	height             : 101%;
+	/*background-color   : #D74DAF;*/
+	background-image   : url('../img/hautDroite2.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: right;
+	width              : 45%;
+	float: right;
+}
+
+
+div.droite section.footer p.number{
+	margin      : 0;
+	padding     : 0;
+	display     : inline-block;
+	float       : right;
+	color       : #FFFFFF;
+	font-weight : bold;
+	margin-right: 0.50%;
+	font-size   : 1.5vmin;
+	margin-top  : 6%;
+	line-height : 0px;
+}
+div.droite section.header p.title{
+	margin      : 0;
+	padding     : 0;
+	display     : inline-block;
+	float       : right;
+	color       : #FFFFFF;
+	font-weight : bold;
+	margin-right: 10%;
+	font-size   : 1.9vmin;
+	line-height : 0px;
+	margin-top  : 4.5%;
+}
+
+div.droite section.footer{
+	margin             : 0;
+	height             : 6.75%;
+	position           : relative;
+}
+
+div.droite section.footer div.imgFond p.number{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-right: 0.75%;
+	font-size  : 1.5vmin;
+	margin-top : 6%;
+	line-height: 0px;
+}
+
+div.droite section.footer div.imgFond{
+	margin             : 0;
+	height             : 101%;
+	width              : 100%;
+	background-image   : url('../img/basDroite3.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: right;
+	position           : relative;
+	z-index            : 500;
+}
+
+div.droite section.footer div.imgColor{
+	/*background-color: #D74DAF;*/
+	height          : 70%;
+	width           : 7.8%;
+	position        : absolute;
+	top             : 30%;
+	right           : 0;
+	z-index         : 400;	
+}
+
+
+div.droite section.corps{
+	margin-left : 2.65%;
+	margin-right: 2.53%;
+}
+
+
+/* css sommaire */
+.pageSommaireIndex{
+	height  : 100%;
+	overflow: hidden;
+}
+.sommaireHeaderIndex{
+	float    : right;
+	height   : 100%;
+	font-size: 4.0vmin;
+	width    : 15%;
+	position : relative;
+	padding  : 0;
+	margin   : 0;
+}
+
+
+.sommaireHeaderIndex p {
+	margin           : 0;
+	padding          : 0;
+	position         : absolute;
+	top              : 42.6%;
+	left             : -300%;
+	/*margin-top     : 100%;*/
+	-webkit-transform: rotate(270deg);
+	-moz-transform   : rotate(270deg);
+	-o-transform     : rotate(270deg);
+	writing-mode     : lr-tb;
+	/*color            : orange;*/
+	font-weight      : bold;
+	width            : 700%;
+	text-align       : right;
+}
+
+.contentSommaireIndex{
+	height    : 100%;
+	margin-top: 7.5%;
+	font-size : 1.5vmin;
+}
+.contentSommaireIndex .listeIndex{
+	border-right : 3px solid orange;
+	margin-left : 7%;
+	padding-right: 2%;
+	font-size   : 1.5vmin;
+	overflow    : hidden;
+}
+.contentSommaireIndex .listeIndex .col{
+	width : 45%;
+	height: 100%;
+	margin-right: 5%;
+	float : left;
+	line-height: 110%;
+}
+
+.contentSommaireIndex .listeIndex a{
+	color: black;
+}
+
+.contentSommaireIndex .listeIndex a:hover{
+	cursor: pointer;
+}
+
+.sommaireNomIndex{
+	display     : inline-block;
+	width       : 80%;
+	overflow    : hidden;
+	margin-right: 2%;
+}
+.sommaireNomIndex .nobr:after{
+	white-space: nowrap;
+	content:  " . . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+/* css sous-sommaire gauche */
+.pageSommairedroite{
+	height: 100%
+}
+.pageSommairedroite .sommaireHeader{
+	float    : left;
+	height   : 100%;
+	font-size: 4.0vmin;
+	width    : 15%;
+	position : relative;
+}
+.pageSommairedroite .sommaireHeader p {
+	position         : absolute;
+	top              : 32.6%;
+	left             : -300%;
+	/*margin-top     : 100%;*/
+	-webkit-transform: rotate(270deg);
+	-moz-transform   : rotate(270deg);
+	-o-transform     : rotate(270deg);
+	writing-mode     : lr-tb;
+	/*color            : orange;*/
+	font-weight      : bold;
+	width            : 700%;
+	text-align       : right;
+}
+.pageSommairedroite .contentSommaire{
+	margin-top: 7.5%;
+	font-size : 1.5vmin;
+}
+.pageSommairedroite .contentSommaire .illustration{
+	width     :73%;
+}
+.pageSommairedroite .contentSommaire .liste{
+	/*border-left : 3px solid orange;*/
+	margin-left : 15%;
+	padding-left: 2%;
+}
+
+.pageSommairedroite .contentSommaire .liste a{
+	color: black;
+}
+
+.pageSommairedroite .contentSommaire .liste a:hover{
+	cursor: pointer;
+}
+
+.pageSommairedroite .contentSommaire .text{
+	width      : 84%;
+	overflow   : hidden;
+	text-align : justify;
+	padding-top: 5%;
+}
+
+.pageSommairedroite .sommaireNom{
+	display     : inline-block;
+	width       : 80%;
+	overflow    : hidden;
+	margin-right: 2%;
+
+}
+.pageSommairedroite .sommaireNom .nobr:after{
+	white-space: nowrap;
+	content:  " . . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+
+/* css sous-sommaire droite */
+.pageSommairegauche{
+	height: 100%
+}
+.pageSommairegauche .sommaireHeader{
+	float    : right;
+	height   : 100%;
+	font-size: 4.0vmin;
+	width    : 15%;
+	position : relative;
+}
+.pageSommairegauche .sommaireHeader p {
+	position         : absolute;
+	top              : 32.6%;
+	left             : -300%;
+	/*margin-top     : 100%;*/
+	-webkit-transform: rotate(270deg);
+	-moz-transform   : rotate(270deg);
+	-o-transform     : rotate(270deg);
+	writing-mode     : lr-tb;
+	/*color            : orange;*/
+	font-weight      : bold;
+	width            : 700%;
+	text-align       : right;
+}
+.pageSommairegauche .contentSommaire{
+	margin-top: 7.5%;
+	font-size : 1.5vmin;
+	width: 84%;
+}
+.pageSommairegauche .contentSommaire .illustration{
+	width      : 90%;
+	margin-left: 10%;
+}
+.pageSommairegauche .contentSommaire .liste{
+	/*border-right: 3px solid orange;*/
+	margin-left : 10%;
+}
+
+.pageSommairegauche .contentSommaire .liste a{
+	color: black;
+}
+
+.pageSommairegauche .contentSommaire .liste a:hover{
+	cursor: pointer;
+}
+
+.pageSommairegauche .contentSommaire .text{
+	width      : 95%;
+	overflow   : hidden;
+	text-align : justify;
+	padding-top: 5%;
+}
+
+.pageSommairegauche .sommaireNom{
+	display     : inline-block;
+	width       : 90%;
+	overflow    : hidden;
+	margin-right: 2%;
+
+}
+.pageSommairegauche .sommaireNom .nobr:after{
+	white-space: nowrap;
+	content:  " . . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+#formInfoPanier *{
+	font-size:1.5vmin;
+	width: 100%
+}
+#formInfoPanier h3{
+	font-size: 1.5vmin
+}
+#formInfoPanier textarea{
+	width: 100%;
+	height: 15%;
+}
+#formInfoPanier input{
+	width: 15%;
+}
+
+#formInfoPanier input[type="submit"]{
+	width           : 80%;
+	background-color: orange;
+	border          : 1px solid #000;
+	color           : #FFFFFF;
+	font-weight     : bold;
+	padding         : 1%;
+}
+
+
+/*css panier */
+#panierCmd{
+	height: 100%;
+}
+
+#panierCmd2{
+	height: 40%;
+}
+
+.tablePanier{
+	width    : 80%;
+	height   : 100%;
+	margin   : 0 auto;
+	font-size: 1.2vmin;
+}
+.tablePanier tr{}
+.tablePanier thead tr{
+	border-bottom: 1px solid black;
+}
+.tablePanier tr td {
+	border-bottom: 1px solid black;
+}
+.tablePanier tr td input{
+	font-size: 1.2vmin
+}
+
+/*css devis */
+#devisCmd{
+	height: 100%;
+}
+
+#devisCmd2{
+	height: 80%;
+}
+
+.tableDevis{
+	width    : 80%;
+	height   : 100%;
+	margin   : 0 auto;
+	font-size: 1.2vmin;
+}
+.tableDevis tr{}
+.tableDevis thead tr{
+	border-bottom: 1px solid black;
+}
+.tableDevis tr td {
+	border-bottom: 1px solid black;
+}
+.tableDevis tr td input{
+	font-size: 1.2vmin
+}
+
+

@@ -1,0 +1,99 @@
+section.corps.model5 .cadre .clearBoth{
+	height : 8%;
+}
+section.corps.model5 .viewTop{
+	height: 75%;
+}
+
+section.corps.model5 .viewTop .box{
+	height: 100%;
+	width: 30%;
+	float: left;
+	font-size: 1.5vmin;
+	margin-left: 3%;
+	margin-top: 2%;
+
+}
+section.corps.model5 .viewTop .box img{
+	height: 25%;
+}
+
+section.corps.model5 .viewTop .box figcaption{
+
+	border-bottom: 3px solid #ea44e7;
+	color: #78bbd2;
+	font-size: 1.2vmin;
+}
+
+section.corps.model5 .viewBottom{
+	font-size: 1.5vmin;
+}
+
+section.corps.model5 .viewBottom img{
+	float: right;
+	width: 25%;
+}
+section.corps.model5 .viewBottom .prixBtn{
+	width: 50%;
+}
+section.corps.model5 .viewBottom h3{
+
+	border-bottom: 3px solid #ea44e7;
+	color: #78bbd2;
+	font-size: 2.0vmin;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+section.corps.model5 .prixBtn a img.panierIco{
+	width       : 30%;
+	height      : auto;
+	float       : left;
+	margin-right: 2%;
+}
+
+section.corps.model5 .viewBottom .prixBtn a img.panierIco{
+	width       : 22%;
+}
+
+section.corps.model5 .prixBtn a img.newIco{
+	width     : 45%;
+	height    : auto;
+	margin-top: 2%;
+}
+
+
+section.corps.model5 .prixBtn .infoPrix{
+	margin-top      : 2%;
+	margin-right    : 2%;
+	width           : 100%;
+	padding         : 2%;
+	background-color: #e9ebed;
+	border-radius   : 5px;
+	font-size       : 1.2vmin;
+	/*border          : 2px solid #e2d9eb;*/
+	position        : relative;
+}
+
+section.corps.model5 .prixBtn .infoPrix span.price{
+	position: absolute;
+	bottom  : 5px;
+	right   : 5px;
+	color   : red;
+	font-size       : 1.6vmin;
+}
+section.corps.model5 .prixBtn .infoPrix span.price sup{
+	font-size: 0.8vmin;
+}
+
+section.corps.model5 .prixBtn .infoPrix .prixBarre{
+	/*position: absolute;
+	left: 0;*/
+	display        : block;
+	text-decoration: line-through;
+	color          : red;
+	margin-top     : 3%;
+}

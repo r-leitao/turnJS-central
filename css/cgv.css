@@ -1,0 +1,13 @@
+section.corps.cgv .cadre .clearBoth{
+	height : 8%;
+}
+section.corps.cgv .cadre{
+	height : 50%;
+}
+section.corps.cgv .cadre .col{
+	width      : 45%;
+	height     : 100%;
+	font-size  : 0.95vmin;
+	float      : left;
+	margin-left: 4%;
+}

@@ -1,0 +1,186 @@
+
+div.droite, div.gauche{
+	height: 100%;
+}
+
+div.posR{
+	position: relative;
+	
+}
+
+
+.paddindB70{
+	height: 100%;
+}
+.clearBoth{
+	clear: both;
+}
+
+section.corps{
+	height : 88.5%;
+}
+
+section.corps .cadre .clearBoth{
+	height : 8%;
+}
+section.corps .cadre{
+	height : 25%;
+}
+section.corps .cadre figure{
+	width     : 40%;
+	height    : 92%;
+	text-align: center;
+}
+section.corps .infoPdt{
+	height    : 92%;
+	font-size : 0.7vw;
+	text-align: justify;
+}
+section.corps .cadre figure img{
+	height: 82.6%;
+}
+/*
+section.corps .cadre figure figcaption{
+	text-align: left;
+	height    : 17.4%;
+	font-size : 0.7vw;
+}*/
+
+section.corps .cadre figure figcaption{
+	text-align: left;
+	height    : 17.4%;
+}
+section.corps .cadre figcaption{
+	font-size : 1vw;
+	font-weight: 900;
+	color:#D74DAF;
+}
+section.corps .cadre figure{
+	font-size : 0.6vw;
+	margin : 0;
+	padding: 0;
+}
+
+/*section.corps .cadre figure{
+	margin : 0;
+	padding: 0;
+}*/
+
+/*section.fond{background-color:#FFD9F4;}*/
+div.fond{background-color:#FEF2FB;}
+
+section.corps .cadre.imgG .infoPdt{width: 96%;}
+section.corps .cadre.imgD .infoPdt{width: 58%;}
+section.corps .cadre.imgG figure{float: left;}
+section.corps .cadre.imgD figure{float: right;}
+
+.price{color: #d74daf; font-weight: bold}
+
+
+.text{
+	padding   : 0;
+	margin    : 0;
+	height    : 50%;
+	overflow-y: scroll;
+}
+
+/* css formulaire ajout produit */
+#option1{float: left; width: 45%}
+#option2{float: left; width: 45%}
+#quantity_wanted{
+	width: 5%;
+}
+#idTabOption form{
+	float: left;
+}
+#idTabOption img{
+	width : 10%;
+	height: 10%;
+	float: left;
+}
+
+/* css gauche */
+div.gauche section.header{
+	height             : 5.31%;
+	background-image   : url('../img/hautGauche.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;
+	/*background-color   : yellow;*/
+}
+
+div.gauche section.corps{
+	margin-left: 2.53%;
+	margin-right: 2.65%;
+}
+div.gauche section.footer p.number{
+	margin     : 0;
+	padding    : 0;
+	margin-top : 4%;
+	display    : inline-block;
+	float      : left;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 5%;
+	font-size  : 1.5vw;
+}
+div.gauche section.header p.title{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	float      : left;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 5%;
+	font-size  : 1.5vw;
+}
+div.gauche section.footer{
+	margin             : 0;
+	height             : 6.19%;
+	background-image   : url('../img/basGauche.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;
+}
+/* css droite */
+
+div.droite section.header{
+	height             : 5.31%;
+	background-image   : url('../img/hautDroite.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: right;
+}
+div.droite section.footer p.number{
+	margin     : 0;
+	padding    : 0;
+	margin-top : 4%;
+	display    : inline-block;
+	float      : left;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 95%;
+	font-size  : 1.5vw;
+}
+div.droite section.header p.title{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	float      : left;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 55%;
+	font-size  : 1.5vw;
+}
+div.droite section.footer{
+	margin: 0;
+	height           : 6.19%;
+	background-image : url('../img/basDroite.png');
+	background-repeat: no-repeat;
+	background-size  : contain;
+	background-position: right;
+}
+div.droite section.corps{
+	margin-left: 2.65%;
+	margin-right: 2.53%;
+}

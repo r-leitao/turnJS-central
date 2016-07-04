@@ -1,0 +1,78 @@
+section.corps.model3 .cadre .clearBoth{
+	height : 8%;
+}
+section.corps.model3 .cadre{
+	height: 30%;
+	margin-bottom: 5%;
+}
+
+
+
+section.corps.model3 .cadre div.border{
+	/*border: 1px solid #000;*/
+	font-size: 1.5vmin;
+	height: 100%;
+}
+
+section.corps.model3 .cadre div.border h3{
+	display      : inline-block;
+	/*border-bottom: 3px solid #e2d9eb; */
+	font-size    : 1.5vmin;
+}
+
+section.corps.model3 .cadre div.border .infoPdt .infoPrix{
+	margin-top      : 2%;
+	margin-right    : 2%;
+	width           : 45%;
+	padding         : 2%;
+	background-color: #e9ebed;
+	border-radius   : 5px;
+	float           : left;
+	font-size       : 1.2vmin;
+	border          : 2px solid #e2d9eb;
+	position        : relative;
+}
+
+section.corps.model3 .cadre div.border .infoPdt .infoPrix span{
+	position: absolute;
+	bottom  : 5px;
+	right   : 5px;
+	color   : red;
+	font-size       : 1.6vmin;
+}
+section.corps.model3 .cadre div.border .infoPdt .infoPrix span sup{
+	font-size: 0.8vmin;
+}
+
+section.corps.model3 .cadre div.border .infoPdt a img.panierIco{
+	width       : 15%;
+	height      : auto;
+	float       : left;
+	margin-right: 2%;
+}
+
+section.corps.model3 .cadre div.border .infoPdt a img.plusIco{
+	width       : 25%;
+	height      : auto;
+	float       : left;
+	margin-top: 2%;
+}
+
+section.corps.model3 .cadre figure{
+	margin-top: 2%;	
+	width     : 40%;
+	height    : 92%;
+	margin    : 0;
+	padding   : 0;
+	text-align: center;
+	/*border    : 1px solid #000;*/
+}
+section.corps.model3 .cadre figure img{
+	width : 80%;
+	/*border: 1px solid #000;*/
+}
+section.corps.model3 .cadre.imgG .border{width: 58%; float: right;}
+section.corps.model3 .cadre.imgD .border{width: 58%; float: left;}
+section.corps.model3 .cadre.imgG figure{float: left;}
+section.corps.model3 .cadre.imgD figure{float: right;}
+

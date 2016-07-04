@@ -1,0 +1,26 @@
+section.contact{
+	height  : 100%;
+	overflow: hidden;
+}
+section.contact .cadre{
+	height : 50%;
+}
+
+section.contact .cadre.historique{
+	padding-top: 5%;
+}
+section.contact .cadre.historique .cadreHisto{
+	width : 30%;
+	margin: 2%;
+	float : left;
+}
+
+section.contact .cadre.infos h3{
+	text-align: center;
+}
+
+section.contact .cadre.infos img.icon{
+	width       : 5%;
+	margin-right: 1%;
+	height      : auto;
+}

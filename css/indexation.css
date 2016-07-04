@@ -1,0 +1,18 @@
+section.corps.indexation #descri{
+	height: 10%;
+	padding: 0;
+	margin: 0;
+	font-size: 1.1vmin;
+}
+section.corps.indexation .col{
+	width    : 33.3%;
+	height: 90%;
+	display  : inline-block;
+	float    : left;
+	font-size: 1.1vmin;
+}
+section.corps.indexation .col .color{
+	font-size  : 1.2vmin;
+	color      : blue;
+	font-weight: bold;
+}

@@ -1,0 +1,22 @@
+section.corps.dernCouv{
+	height: 95.5%;
+	width: 100%;
+	background-color: white;
+}
+section.corps.dernCouv .cadre img{
+	width: 94%;
+	margin-top: 38%;
+}
+
+section.footer.dernCouv {
+	background-image: none !important;
+	background-color: #F98517;
+	font-size: 1.5vmin;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+
+section.footer.dernCouv a {
+	color: #FFFFFF;
+}

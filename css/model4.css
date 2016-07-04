@@ -1,0 +1,102 @@
+section.corps.model4 .cadre .clearBoth{
+	height : 8%;
+}
+section.corps.model4 .cadre{
+	height : 25%;
+}
+section.corps.model4 .cadre figure{
+	width     : 40%;
+	height    : 92%;
+	text-align: center;
+}
+section.corps.model4 .infoPdt{
+	height    : 92%;
+	font-size : 1.5vmin;
+	text-align: justify;
+}
+section.corps.model4 .cadre figure img{
+	height: 82.6%;
+}
+
+section.corps.model4 .cadre figure figcaption{
+	text-align: left;
+	height    : 17.4%;
+	font-size : 1.5vmin;
+	color: #78bbd2;
+}
+section.corps.model4 .cadre figure{
+	margin : 0;
+	padding: 0;
+}
+section.corps.model4 .cadre.imgG .infoPdt{width: 58%; float: left;}
+section.corps.model4 .cadre.imgD .infoPdt{width: 58%;}
+section.corps.model4 .cadre.imgG figure{float: left;}
+section.corps.model4 .cadre.imgD figure{float: right;}
+
+
+
+section.corps.model4 .cadre.imgD .prixBtn a img.panierIco{
+	width       : 15%;
+	height      : auto;
+	float       : right;
+	margin-right: 2%;
+}
+section.corps.model4 .cadre.imgG .prixBtn a img.panierIco{
+	width       : 15%;
+	height      : auto;
+	float       : left;
+	margin-right: 2%;
+}
+
+section.corps.model4 .cadre.imgD .prixBtn a img.newIco{
+	width     : 25%;
+	height    : auto;
+	float     : right;
+	margin-top: 2%;
+}
+section.corps.model4 .cadre.imgG .prixBtn a img.newIco{
+	width     : 25%;
+	height    : auto;
+	float     : left;
+	margin-top: 2%;
+}
+
+section.corps.model4 .cadre.imgG .prixBtn .infoPrix{
+	float: left;
+}
+
+section.corps.model4 .cadre.imgD .prixBtn .infoPrix{
+	float: right;
+}
+
+section.corps.model4 .cadre .prixBtn .infoPrix{
+	margin-top      : 2%;
+	margin-right    : 2%;
+	width           : 45%;
+	padding         : 2%;
+	background-color: #e9ebed;
+	border-radius   : 5px;
+	font-size       : 1.2vmin;
+	/*border          : 2px solid #e2d9eb;*/
+	position        : relative;
+}
+
+section.corps.model4 .cadre .prixBtn .infoPrix span.price{
+	position: absolute;
+	bottom  : 5px;
+	right   : 5px;
+	color   : red;
+	font-size       : 1.6vmin;
+}
+section.corps.model4 .cadre .prixBtn .infoPrix span.price sup{
+	font-size: 0.8vmin;
+}
+
+section.corps.model4 .cadre .prixBtn .infoPrix .prixBarre{
+	/*position: absolute;
+	left: 0;*/
+	display        : block;
+	text-decoration: line-through;
+	color          : red;
+	margin-top     : 3%;
+}

@@ -1,0 +1,166 @@
+
+div.droite, div.gauche{
+	height: 100%;
+}
+
+div.posR{
+	position: relative;
+	
+}
+
+.clearBoth{
+	clear: both;
+}
+
+section.corps{
+	height : 88.5%;
+}
+
+
+section.corps .produit{
+	width        : 33%;
+	height       : 20%;
+	float        : left;
+	margin-bottom: 15%;
+}
+section.corps .produit .ajouterPDT{
+	width     : 40%;
+	height    : auto;
+	margin-top: 25%;
+}
+section.corps .produit figure{
+	width     : 40%;
+	height    : 92%;
+	text-align: center;
+}
+section.corps.model4 .infoPdt{
+	height    : 92%;
+	font-size : 0.7vmin;
+	text-align: justify;
+}
+section.corps .produit figure img{
+	height: 82.6%;
+}
+
+section.corps .produit figure figcaption{
+	text-align: left;
+	height    : 17.4%;
+	font-size : 0.4vmin;
+}
+section.corps .produit figure{
+	margin : 0;
+	padding: 0;
+}
+
+.price{color: #d74daf; font-weight: bold}
+.text{
+	padding   : 0;
+	margin    : 0;
+	height    : 50%;
+	overflow-y: scroll;
+}
+
+/* css formulaire ajout produit */
+#option1{float: left; width: 45%}
+#option2{float: left; width: 45%}
+#quantity_wanted{
+	width: 5%;
+}
+#idTabOption form{
+	float: left;
+}
+#idTabOption img{
+	width : 10%;
+	height: 10%;
+	float: left;
+}
+
+/* css gauche */
+div.gauche section.header{
+	height             : 5.31%;
+	background-image   : url('./img/hautGauche.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;
+	/*background-color   : yellow;*/
+}
+
+div.gauche section.corps{
+	margin-left : 2.53%;
+	margin-right: 2.65%;
+}
+div.gauche section.footer{
+	margin             : 0;
+	height             : 6.70%;
+	background-image   : url('./img/basGauche.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: left;
+}
+div.gauche section.footer p.number{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 0.75%;
+	font-size  : 1.5vmin;
+	margin-top : 6%;
+	line-height: 0px;
+}
+div.gauche section.header p.title{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	float      : left;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-left: 2%;
+	font-size  : 1.1vmin;
+}
+/* css droite */
+
+div.droite section.header{
+	height             : 5.31%;
+	background-image   : url('./img/hautDroite.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: right;
+}
+div.droite section.footer p.number{
+	margin      : 0;
+	padding     : 0;
+	display     : inline-block;
+	float       : right;
+	color       : #FFFFFF;
+	font-weight : bold;
+	margin-right: 0.50%;
+	font-size   : 1.5vmin;
+	margin-top: 5%;
+	line-height   : 0px;
+}
+div.droite section.header p.title{
+	margin     : 0;
+	padding    : 0;
+	display    : inline-block;
+	float      : right;
+	color      : #FFFFFF;
+	font-weight: bold;
+	margin-right: 2%;
+	font-size  : 1.1vmin;
+}
+div.droite section.footer{
+	margin             : 0;
+	height             : 6.70%;
+	background-image   : url('./img/basDroite.png');
+	background-repeat  : no-repeat;
+	background-size    : contain;
+	background-position: right;
+}
+div.droite section.corps{
+	margin-left : 2.65%;
+	margin-right: 2.53%;
+}
+
+
+

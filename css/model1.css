@@ -1,0 +1,79 @@
+section.corps.model1 .cadre .clearBoth{
+	height : 8%;
+}
+section.corps.model1 .cadre{
+	height : 50%;
+}
+section.corps.model1 .cadre figure{
+	width     : 100%;
+	text-align: center;
+}
+section.corps.model1 .cadre figure img{
+	height: 50%;
+	width: 50%;
+}
+section.corps.model1 .infoPdt{
+	font-size : 1.0vmin;
+	text-align: justify;
+}
+
+section.corps.model1 .cadre figure figcaption{
+	text-align: left;
+	width: 95%;
+	margin: 0 auto;
+	font-size : 1.2vmin;
+}
+section.corps.model1 .cadre figure{
+	margin : 0;
+	padding: 0;
+}
+
+
+
+
+section.corps.model1 .cadre .prixBtn a img.panierIco{
+	width       : 15%;
+	height      : auto;
+	float: left;
+	margin-right: 2%;
+}
+
+section.corps.model1 .cadre .prixBtn a img.newIco{
+	width     : 25%;
+	height    : auto;
+	margin-top: 2%;
+	float: left;
+}
+
+section.corps.model1 .cadre .prixBtn .infoPrix{
+	margin-top      : 2%;
+	margin-right    : 2%;
+	width           : 45%;
+	padding         : 2%;
+	background-color: #e9ebed;
+	border-radius   : 5px;
+	font-size       : 1.2vmin;
+	float: left;
+	/*border          : 2px solid #e2d9eb;*/
+	position        : relative;
+}
+
+section.corps.model1 .cadre .prixBtn .infoPrix span.price{
+	position: absolute;
+	bottom  : 5px;
+	right   : 5px;
+	color   : red;
+	font-size       : 1.6vmin;
+}
+section.corps.model1 .cadre .prixBtn .infoPrix span.price sup{
+	font-size: 0.8vmin;
+}
+
+section.corps.model1 .cadre .prixBtn .infoPrix .prixBarre{
+	/*position: absolute;
+	left: 0;*/
+	display        : block;
+	text-decoration: line-through;
+	color          : red;
+	margin-top     : 3%;
+}
