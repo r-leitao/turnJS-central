@@ -170,12 +170,13 @@ $increCol = 0;
 // echo '<pre>';
 // print_r($sommaire);
 // echo '</pre>';
+$firstBr = false;
 
 foreach ($sommaire as $cat => $stack) {
 
 	foreach ($stack as $key => $value) {
 		$increCol++;
-		if($increCol == 33){
+		if($increCol == 40){
 			$increCol = 0;
 			$Book.='</div><div class="col">';
 		}
@@ -199,8 +200,13 @@ foreach ($sommaire as $cat => $stack) {
 
 		if($value[0]=='')
 		{
-			$Book.='<br>
-					<a class="sommaire">
+			if ($firstBr==false) {
+				$firstBr = !$firstBr;
+			} else {
+				$Book.= '<br>
+				';
+			}
+			$Book.='<a class="sommaire">
 						<span class="sommaireNomIndex"><nobr class="nobr"><b flp-click="show_page('.$page.')">'.strtoupper($cat).'</b></nobr></span><span class="sommaireNbPage">'.$value[1].'</span>
 					</a>
 					<br>'."\n";
